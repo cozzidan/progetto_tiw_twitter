@@ -9,16 +9,14 @@ Project Title: Twitter-like Messaging Application
 ![Screenshot 2023-07-05 175333](https://github.com/cozzidan/progetto_tiw_twitter/assets/138693501/59d0e61f-efc6-4138-9d1a-d2ccd4bb1356)
 
 Description:
-This repository contains a university project that implements a web application for managing a messaging stream similar to Twitter. The application allows users to register and login through a public webpage with the appropriate form.
+This university project is a web application that manages a messaging stream similar to Twitter. Users can register and login through a public webpage.
 
-During registration, the system validates the syntax of the email address and ensures that the "password" and "confirm password" fields match. The registration process also checks the uniqueness of the chosen username.
+The registration process validates email syntax and ensures password matching. Messages are stored in a database with attributes like text, date, and the user who posted them. Images can be included with messages and are stored on the server's file system.
 
-Each message is stored in the database with attributes such as text, date, and the user who posted it. Messages can optionally include an image, which is stored as a file in the server's file system where the application is deployed.
+Users can create discussion threads and associate messages with them. Threads have titles, creator names, creation dates, and can contain multiple messages. Other users can comment on thread messages, including their usernames.
 
-Users can create discussion threads and associate their messages with them. A thread consists of a title, creator name, creation date, and can contain one or more messages. Other users can comment on the messages within a thread. A comment includes the comment text and the username of the creator.
+The dashboard displays lists of threads created by the user and others, sorted by creation date. Clicking on a thread opens a page showing its messages. Navigation commands allow users to view previous and next messages if a thread has more than ten.
 
-Upon accessing the DASHBOARD, users are presented with a list of threads they have created and a list of threads created by other users. Both lists are sorted by the creation date in descending order. Clicking on a thread in the DASHBOARD lists opens the THREAD_PAGE, which displays the messages belonging to that thread. If a thread contains more than ten messages, commands are available to view the previous and next ten messages.
+The thread page includes a comment form. Submitting a comment refreshes the page with updated data. Users can return to the home page or log out.
 
-The THREAD_PAGE also features a form for adding comments. Submitting a comment using the "SEND" button refreshes the THREAD_PAGE, displaying all the updated data for the same thread. The THREAD_PAGE includes a link to return to the HOME_PAGE. The application provides a logout feature for users.
-
-Please note that this project is a university assignment and should not be considered a fully functional real-world application.
+Note: This project is a university assignment and is not a fully functional real-world application.
