@@ -2,6 +2,12 @@
 
 Project Title: Twitter-like Messaging Application
 
+![Screenshot 2023-07-05 175037](https://github.com/cozzidan/progetto_tiw_twitter/assets/138693501/f5442b00-3687-4de6-9c09-3e8d60cd141a)
+
+![Screenshot 2023-07-05 175135](https://github.com/cozzidan/progetto_tiw_twitter/assets/138693501/82412fc2-857a-40b6-913f-50bffae4ce25)
+
+![Screenshot 2023-07-05 175333](https://github.com/cozzidan/progetto_tiw_twitter/assets/138693501/59d0e61f-efc6-4138-9d1a-d2ccd4bb1356)
+
 Description:
 This repository contains a university project that implements a web application for managing a messaging stream similar to Twitter. The application allows users to register and login through a public webpage with the appropriate form.
 
